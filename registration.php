@@ -113,7 +113,7 @@
 	<body >
 
 		<h1>Registration Form</h1>
-		<form id ="form" action="<?php htmlspecialchars($_SERVER['PHP_SELF'])?>" method="POST">
+		<form id ="form" action="<?php htmlspecialchars($_SERVER['PHP_SELF'])?>" method="GET">
 		<fieldset>
 			<legend>Basic Information :</legend>
 			<label for="firstname">First Name<span style="color: red;">*</span>:</label>
